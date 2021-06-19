@@ -43,7 +43,7 @@
 
     <title>Myapp</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#page-nav" data-bs-offset="0">
     <nav id="page-nav" class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Myapp</a>
@@ -55,7 +55,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#hero-section">Home</a>
+                        <a class="nav-link" href="#hero-section">Home</a>
                     </li>
 
                     <li class="nav-item">
@@ -68,7 +68,7 @@
                 </ul>
 
                 <form class="d-flex">
-                    <input class="form-control me-2" type="email" placeholder="name@example.com">
+                    <input class="form-control me-2" type="email" placeholder="Email">
 
                     <input class="form-control me-2" type="password" placeholder="Password">
 
@@ -78,98 +78,96 @@
         </div>
     </nav>
     
-    <div data-bs-spy="scroll" data-bs-target="#page-nav" data-bs-offset="0">
-        <section id="hero-section" class="bg-info">
-            <div class="container text-center">
-                <h1 class="display-1">My Awesome App!</h1>
-    
-                <p>This is WHY you should download this fantastic App</p>
-    
-                <hr class="mt-5 mb-5">
-    
-                <p>Want to know more? Join our mailing list!</p>
-                
-                <div class="row">
-                    <div class="col-md-4 mx-auto">
-                        <form action="" class="d-flex">
-                            <div class="input-group mb-3 me-3">
-                                <span class="input-group-text" id="basic-addon1">@</span>
-                                <input type="text" class="form-control" placeholder="Your email" aria-label="Email" aria-describedby="basic-addon1">
-                            </div>
+    <section id="hero-section" class="bg-info">
+        <div class="container text-center">
+            <h1 class="display-1">My Awesome App!</h1>
+
+            <p>This is WHY you should download this fantastic App</p>
+
+            <hr class="mt-5 mb-5">
+
+            <p>Want to know more? Join our mailing list!</p>
             
-                            <input type="submit" value="Sign up" class="btn btn-success mb-3">
-                        </form>
-                    </div>
+            <div class="row">
+                <div class="col-md-4 mx-auto">
+                    <form action="" class="d-flex">
+                        <div class="input-group mb-3 me-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Your email" aria-label="Email" aria-describedby="basic-addon1">
+                        </div>
+        
+                        <input type="submit" value="Sign up" class="btn btn-success mb-3">
+                    </form>
                 </div>
             </div>
-        </section>
-    
-        <section id="about-section">
-            <div class="container text-center">
-                <h2>Why This App Is Awesome</h2>
-    
-                <p>Summary, once again of your app's awesomeness</p>
-    
-                <div class="row">
-                    <div class="col-md-4">
-    
-                        <div class="card m-3">
-                            <img src="images/feature-image.jpg" class="card-img-top" alt="">
-    
-                            <div class="card-body">
-                              <h5 class="card-title"><i class="bi bi-box-seam"></i> Feature One</h5>
-    
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
+        </div>
+    </section>
+
+    <section id="about-section">
+        <div class="container text-center">
+            <h2>Why This App Is Awesome</h2>
+
+            <p>Summary, once again of your app's awesomeness</p>
+
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="card m-3">
+                        <img src="images/feature-image.jpg" class="card-img-top" alt="">
+
+                        <div class="card-body">
+                          <h5 class="card-title"><i class="bi bi-box-seam"></i> Feature One</h5>
+
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
-    
                     </div>
-    
-                    <div class="col-md-4">
-    
-                        <div class="card m-3">
-                            <img src="images/feature-image.jpg" class="card-img-top" alt="">
-    
-                            <div class="card-body">
-                              <h5 class="card-title"><i class="bi bi-box-seam"></i> Feature One</h5>
-    
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card m-3">
+                        <img src="images/feature-image.jpg" class="card-img-top" alt="">
+
+                        <div class="card-body">
+                          <h5 class="card-title"><i class="bi bi-box-seam"></i> Feature One</h5>
+
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
-    
                     </div>
-    
-                    <div class="col-md-4">
-    
-                        <div class="card m-3">
-                            <img src="images/feature-image.jpg" class="card-img-top" alt="">
-    
-                            <div class="card-body">
-                              <h5 class="card-title"><i class="bi bi-box-seam"></i> Feature One</h5>
-    
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card m-3">
+                        <img src="images/feature-image.jpg" class="card-img-top" alt="">
+
+                        <div class="card-body">
+                          <h5 class="card-title"><i class="bi bi-box-seam"></i> Feature One</h5>
+
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
-    
                     </div>
+
                 </div>
             </div>
-        </section>
-    
-        <section id="download-section" class="bg-info">
-            <div class="container text-center">
-                <h2>Download the app!</h2>
-    
-                <p>Really, why should I download the app!!</p>
-    
-                <div class="flex-md-row justify-content-md-center">
-                    <img src="images/download-on-ios.png" alt="Download on IOS" class="download-button">
-    
-                    <img src="images/download-on-android.png" alt="Download on Android" class="download-button">
-                </div>
+        </div>
+    </section>
+
+    <section id="download-section" class="bg-info">
+        <div class="container text-center">
+            <h2>Download the app!</h2>
+
+            <p>Really, why should I download the app!!</p>
+
+            <div class="flex-md-row justify-content-md-center">
+                <img src="images/download-on-ios.png" alt="Download on IOS" class="download-button">
+
+                <img src="images/download-on-android.png" alt="Download on Android" class="download-button">
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
     
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
