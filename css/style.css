@@ -1,0 +1,29 @@
+
+        #hero-section{
+            background-image: url("../images/hero-image.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center top;
+            padding: 100px 0;
+        }
+
+        #about-section{
+            padding: 100px 0;
+        }
+
+        .card-body{
+            text-align: left;
+        }
+
+        #download-section{
+            padding: 200px 0;
+            background-color: cornflowerblue;
+        }
+
+        .download-button{
+            height: 50px;
+        }
+
+        body{
+            position: relative;
+        }
